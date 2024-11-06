@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+body{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-color: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 200px;
+  border-radius: 50px;
+}
+
+#content{
+  background-color: rgb(255,255,255,0.7);
+  width: 800px;
+  border-radius: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+/* QUESTIONS CSS */
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.question{
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.btn-answer{
+  width: 500px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  color: white;
+  background-color: #9966ff;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+}
+
+.btn-answer:hover{
+  cursor: pointer;
+  background-color: #884dff;
+  transform: translate(0px, -2px);
+}
+
+
+
+
+/* RESULTS TABLE */
+
+
+h2{
+  font-size: 30px;
+}
+
+.SB-answer p{
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.correct{
+  color: green;
+}
+
+.incorrect{
+  color: red;
+}
